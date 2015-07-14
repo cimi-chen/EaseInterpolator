@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo/Demo.iml" filepath="$PROJECT_DIR$/Demo/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EaseAnimation.iml" filepath="$PROJECT_DIR$/EaseAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EaseInterpolator/EaseInterpolator.iml" filepath="$PROJECT_DIR$/EaseInterpolator/EaseInterpolator.iml" />
+    </modules>
+  </component>
+</project>
