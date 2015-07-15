@@ -8,5 +8,8 @@
 
 
 ----------
+[百度一下，你就知道](http://www.baidu.com)
 
-
+    public static void main(String[] args) {
+	    System.out.println("Hello world !");
+    }
