@@ -1,2 +1,12 @@
-# EaseInterpolator
-Use different interpolators implemented by easing functions, you can create 30 different animations.
+#你好
+*强调就麻烦了*
+
+----------
+
+
+当然也不知道到底是否真的那么优美，还要先试用几天才行。
+
+
+----------
+
+
