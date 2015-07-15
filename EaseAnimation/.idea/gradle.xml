@@ -11,7 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Demo" />
-            <option value="$PROJECT_DIR$/EaseInterpolator" />
+            <option value="$PROJECT_DIR$/EaseInterpolatorLib" />
           </set>
         </option>
       </GradleProjectSettings>

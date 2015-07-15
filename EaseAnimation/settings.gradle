@@ -1,1 +1,1 @@
-include ':Demo', ':EaseInterpolator'
+include ':Demo', 'EaseInterpolatorLib'
