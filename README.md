@@ -7,6 +7,7 @@ Thirty different easing animation interpolators for Android.
 ## Installation
 
 In order to use the library, there are 2 options:
+
 **1. Add jar file as library**`(Recommend)`
  - Download the [**ease-interpolator-1.0.jar**](https://github.com/cimi-chen/EaseInterpolator/blob/master/libs/ease-interpolator-1.0.jar?raw=true).
  - Copy the **ease-interpolator-.jar** file into the `libs` folder of your Android application project.
