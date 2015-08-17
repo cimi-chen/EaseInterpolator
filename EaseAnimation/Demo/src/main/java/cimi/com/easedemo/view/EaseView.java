@@ -9,6 +9,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Interpolator;
 
+import cimi.com.easeinterpolator.EaseBreathInterpolator;
+
 /**
  * Created by cimi on 15/7/6.
  */
@@ -71,7 +73,8 @@ public class EaseView extends View {
         for (; i < duration; i += factor) {
             path.lineTo(i/factor + blankLR, h - interpolator.getInterpolation((float)i / duration) * h + blankTB);
         }
-        path.lineTo(i/factor + blankLR, blankTB);
+        if (!(interpolator instanceof EaseBreathInterpolator))
+            path.lineTo(i/factor + blankLR, blankTB);
 
         invalidate();
     }

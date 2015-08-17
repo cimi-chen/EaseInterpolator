@@ -29,4 +29,5 @@ dependencies {
     //    compile fileTree(dir: 'libs', include: ['*.so'])
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile files('libs/ease-interpolator-1.0.jar')
+    compile project(':EaseInterpolatorLib')
 }

@@ -17,6 +17,7 @@ import cimi.com.easeinterpolator.EaseBackOutInterpolator;
 import cimi.com.easeinterpolator.EaseBounceInInterpolator;
 import cimi.com.easeinterpolator.EaseBounceInOutInterpolator;
 import cimi.com.easeinterpolator.EaseBounceOutInterpolator;
+import cimi.com.easeinterpolator.EaseBreathInterpolator;
 import cimi.com.easeinterpolator.EaseCircularInInterpolator;
 import cimi.com.easeinterpolator.EaseCircularInOutInterpolator;
 import cimi.com.easeinterpolator.EaseCircularOutInterpolator;
@@ -71,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
     private List<String> nameList = new ArrayList<>();
     private List<Interpolator> interpolatorList = new ArrayList<>();
     private void init() {
+        interpolatorList.add(new EaseBreathInterpolator());
+
         interpolatorList.add(new EaseBackInInterpolator());
         interpolatorList.add(new EaseBackOutInterpolator());
         interpolatorList.add(new EaseBackInOutInterpolator());
